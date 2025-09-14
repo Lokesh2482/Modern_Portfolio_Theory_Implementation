@@ -1,4 +1,4 @@
-# Modern\_Portfolio\_Theory\_Implementation
+# Modern Portfolio Theory Implementation
 
 This project demonstrates **Modern Portfolio Theory (MPT)** concepts by optimizing a stock portfolio using historical data. It simulates thousands of random portfolios, calculates performance metrics (expected return, volatility, Sharpe ratio), and identifies the optimal portfolio allocation.
 
