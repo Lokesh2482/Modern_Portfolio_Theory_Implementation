@@ -1,18 +1,18 @@
-# Portfolio Optimization & Efficient Frontier Analysis
+# Modern\_Portfolio\_Theory\_Implementation
 
-This project demonstrates portfolio optimization using historical stock data. It simulates thousands of random portfolios, calculates performance metrics (expected return, volatility, Sharpe ratio), and finds the optimal portfolio with the maximum Sharpe ratio. Visualizations include stock price history, cumulative returns, correlation heatmaps, and the efficient frontier.
+This project demonstrates **Modern Portfolio Theory (MPT)** concepts by optimizing a stock portfolio using historical data. It simulates thousands of random portfolios, calculates performance metrics (expected return, volatility, Sharpe ratio), and identifies the optimal portfolio allocation.
 
 ## Features
 
 * Download historical stock price data using `yfinance`.
-* Compute **log returns** for accurate portfolio performance metrics.
+* Compute **log returns** for accurate portfolio performance analysis.
 * Simulate **10,000 random portfolios** and calculate:
 
   * Expected annual return
   * Annual volatility
   * Sharpe ratio
 * Optimize the portfolio to **maximize Sharpe ratio** using `scipy.optimize.minimize`.
-* Visualizations:
+* Visualizations include:
 
   * Stock price history
   * Correlation heatmap
@@ -25,8 +25,8 @@ This project demonstrates portfolio optimization using historical stock data. It
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/portfolio-optimization.git
-cd portfolio-optimization
+git clone https://github.com/yourusername/Modern_Portfolio_Theory_Implementation.git
+cd Modern_Portfolio_Theory_Implementation
 ```
 
 2. Install required packages:
@@ -37,7 +37,7 @@ pip install numpy pandas matplotlib seaborn yfinance scipy
 
 ## Usage
 
-1. Open `portfolio_optimization.py` in your favorite IDE.
+1. Open `portfolio_optimization.py` (or your main script) in your IDE.
 2. Update stock symbols, start date, or end date if needed:
 
 ```python
@@ -60,8 +60,8 @@ python portfolio_optimization.py
 ## How It Works
 
 1. **Data Download:** Fetches historical closing prices for the selected stocks.
-2. **Return Calculation:** Computes log returns for more accurate financial modeling.
-3. **Portfolio Simulation:** Generates random weights, calculates portfolio performance metrics for each simulation.
+2. **Return Calculation:** Computes log returns for accurate financial modeling.
+3. **Portfolio Simulation:** Generates random weights and calculates performance metrics for each portfolio.
 4. **Portfolio Optimization:** Uses the **Sharpe ratio** to identify the optimal asset allocation.
 5. **Visualization:** Provides intuitive plots to understand risk-return trade-offs and diversification benefits.
 
